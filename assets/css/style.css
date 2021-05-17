@@ -1,13 +1,4 @@
-/**
-* Template Name: Moderna - v2.1.0
-* Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -73,7 +64,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(103, 49, 71, 0.9);
+  background: #fff;
   height: 100px;
   padding: 10px 0;
 }
@@ -96,7 +87,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 68px;
+  max-height: 85px;
 }
 
 #main {
@@ -122,10 +113,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #2196f3;
   padding: 30px 15px;
+  font-weight: 700;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -2389,3 +2381,16 @@ section.about.aos-init.aos-animate img {
 #footer .credits a {
   color: #a2cce3;
 }
+
+
+
+
+
+.btn-add-modal {background: rgba(103, 49, 71, 1);   box-shadow: 0 0 6px #888; width: 23%;    height: 44px;    border-radius: 0;    color: #fff;}
+.btn-add-modal:hover{background: #fff; color: #de185a;}
+.modal-header {    background: rgba(103, 49, 71, 1); height: 80px;}
+.modal-title {    color: #fff;    padding: 7px 0;    font-family: 'Roboto Slab';}
+.form-stock input {    margin-bottom: 6px;    border-radius: 0;    box-shadow: 0 0 2px #bbb;}
+.btn.btn-know {background: #754559;height: 38px;      margin-bottom: 10px;  color: #fff;    box-shadow: 0 0 3px #000;}
+.btn.btn-know:hover{background: #fff;height: 38px;     margin-bottom: 10px;   color: #754559;    box-shadow: 0 0 3px #000;}
+
